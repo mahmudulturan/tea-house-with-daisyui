@@ -18,6 +18,9 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/05fecc9477.js" crossorigin="anonymous"></script>
+
     <!-- custom style for tailwind -->
     <script>
         tailwind.config = {
@@ -34,9 +37,74 @@
 
 <body class="font-manrope">
     <header>
+       <section class="container mx-auto">
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-7xl font-extrabold">
+                    It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+              <div>
 
+                <img src="./images/banner.png" class="max-w-sm" /> 
+
+
+                <div class="-mt-24 flex items-center gap-3 p-5 w-64 shadow-xl bg-white">
+                      <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                  
+                  <div>
+                      <h2 class="font-extrabold text-3xl">5.00</h2>
+                      <p class="text-base font-semibold">Trust Pilot Ratings</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+       </section>
     </header>
     <main>
+        <!-- featured section -->
+        <section class="text-center my-32 container mx-auto ">
+            <h2 class="font-bold text-4xl mb-5">Our Featured Products</h2>
+            <p class="max-w-[901px] mx-auto mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        
+            <!-- card sections -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                <div class="card card-compact p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+                      <p class="text-base font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card card-compact p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-extrabold">Black Tea</h2>
+                      <p class="text-base font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card card-compact p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
+                      <p class="text-base font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card card-compact p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-extrabold">Green Tea</h2>
+                      <p class="text-base font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+            </div>
+        
+        </section>
 
     </main>
     <footer>
